@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Задание</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script defer src="test.js"></script>
+</head>
+
+<body>
+
+    <header>
+
+        <img class="guitar" src="guitar.png" alt="guitar" style="height: 400px;">
+        <img class="notes" src="notes.png" alt="notes">
+
+        <h1 class="about">Кампания по акустическим гитарам</h1>
+        <h2 class="about">Лучшие акустические гитары только у нас</h2>
+
+        <nav>
+            <a href="#about">Почему нас выбирают</a>
+            <a href="#process">Как мы работаем</a>
+            <a href="#portfolio">Портфолио</a>
+            <a href="#form">Заказать</a>
+        </nav>
+
+    </header>
+
+
+    <!-- СЛАЙДЕР -->
+
+    <div id="slider">
+
+        <div class="slide active">
+            <img src="slide1.png" alt="">
+            <span></span>
+        </div>
+
+        <div class="slide">
+            <img src="slide2.png" alt="">
+            <span></span>
+        </div>
+
+        <div class="slide">
+            <img src="slide3.png" alt="">
+            <span></span>
+        </div>
+
+
+        <button id="prev">❮</button>
+        <button id="next">❯</button>
+
+        <div id="dots"></div>
+
+    </div>
+
+
+    <div class="promo-card">
+    <div class="promo-title">🎁 Скидка 40%</div>
+    <div class="promo-subtitle">До конца акции:</div>
+
+    <div class="timer">
+            <div class="time-box">
+                <span id="saleDays">00</span>
+                <p>дней</p>
+            </div>
+
+            <div class="time-box">
+                <span id="saleHours">00</span>
+                <p>часов</p>
+            </div>
+
+            <div class="time-box">
+                <span id="saleMinutes">00</span>
+                <p>минут</p>
+            </div>
+
+            <div class="time-box">
+                <span id="saleSeconds">00</span>
+                <p>секунд</p>
+            </div>
+        </div>
+    </div>
+
+
+    <main>
+
+        <section id="about">
+            <h1 class="h">Почему нас выбирают</h1>
+            <h2 class="h">Мы предлагаем только лучшие акустические гитары по конкурентным ценам.</h2>
+            <h2 class="h">А так же нам ставят лучшие отзывы!</h2>
+            <img src="good-review1.png" alt="Хороший отзыв" class="reviewOne">
+            <img src="good-review2.png" alt="Хороший отзыв" class="reviewTwo">
+            
+        </section>
+        <section id="process">
+            <h2>Как мы работаем</h2>
+            <div class="process-container">
+                <div class="process-card">
+                    <img src="https://images.unsplash.com/photo-1525201548942-d8732f6617a0" alt="Выбор гитары">
+                    <h3>Выбор гитары</h3>
+                    <p>Вы выбираете понравившуюся акустическую гитару из нашего каталога.</p>
+                </div>
+                <div class="process-card">
+                    <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d" alt="Оформление заказа">
+                    <h3>Оформление</h3>
+                    <p>Оставляете заявку на сайте и мы связываемся с вами.</p>
+                </div>
+                <div class="process-card">
+                    <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d" alt="Доставка">
+                    <h3>Доставка</h3>
+                    <p>Мы быстро доставляем гитару прямо к вам домой.</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section id="portfolio">
+
+            <h2>Портфолио</h2>
+
+            <div class="portfolio-container">
+
+                <img src="https://images.unsplash.com/photo-1510915361894-db8b60106cb1">
+                <img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d">
+                <img src="https://images.unsplash.com/photo-1525201548942-d8732f6617a0">
+                <img src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4">
+
+            </div>
+
+
+        </section>
+
+
+        <section id="form">
+
+            <h2>Заказать</h2>
+
+            <form class="order-form">
+
+                <input type="text" placeholder="Ваше имя" required>
+
+                <input type="tel" placeholder="Телефон" required>
+
+                <select>
+                    <option>Выберите гитару</option>
+                    <option>Yamaha F310</option>
+                    <option>Fender CD60</option>
+                    <option>Ibanez V50</option>
+                </select>
+
+                <button type="submit">Заказать</button>
+
+            </form>
+
+        </section>
+
+
+    </main>
+
+
+    <footer>
+
+        <div class="footer-container">
+
+            <div>
+                <h3>О нас</h3>
+                <p>Мы продаем качественные акустические гитары по лучшим ценам.</p>
+            </div>
+
+            <div>
+                <h3>Контакты</h3>
+                <p>Телефон: +7 777 777 77 77</p>
+                <p>Email: guitarshop@mail.com</p>
+            </div>
+
+            <div>
+                <h3>Мы в соцсетях</h3>
+                <p>Instagram</p>
+                <p>Youtube</p>
+                <p>Telegram</p>
+            </div>
+
+        </div>
+
+        <p class="copyright">© 2026 Guitar Shop</p>
+
+    </footer>
+
+
+</body>
+
+</html>
